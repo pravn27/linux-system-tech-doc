@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Linux System",
   tagline:
-    "Everything about linux system, its reference links & technical documentations",
+    "Everything about Linux system, its reference links & technical documentations",
   favicon: "/img/favicon.ico",
 
   // Set the production url of your site here
@@ -45,10 +45,9 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/pravn27/linux-system-tech-doc/tree/master",
+          editUrl:
+            "https://github.com/pravn27/linux-system-tech-doc/tree/master",
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +55,6 @@ const config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/pravn27/linux-system-tech-doc/tree/master",
@@ -75,12 +73,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Linux System",
+        // title: "JavaScript",
         logo: {
-          alt: "My Site Logo",
+          alt: "Logo",
           src: "/img/logo.png",
         },
         items: [
@@ -91,13 +87,8 @@ const config = {
           //   label: "About VS System",
           // },
           {
-            to: "/docs/intro",
-            label: "About VS System",
-            position: "left",
-          },
-          {
-            to: "/docs/category/github",
-            label: "Github",
+            to: "/docs/category/js-documentations",
+            label: "Linux System",
             position: "left",
           },
           {
@@ -120,11 +111,11 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Github",
+            title: "Linux System",
             items: [
               {
-                label: "Github",
-                to: "/docs/category/github",
+                label: "Linux System",
+                to: "/docs/category/js-documentations",
               },
             ],
           },
@@ -141,25 +132,8 @@ const config = {
               },
             ],
           },
-          {
-            title: "More",
-            items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              {
-                label: "GitHub",
-                href: "https://github.com/pravn27",
-              },
-              {
-                label: "LinkedIn",
-                href: "https://www.linkedin.com/in/praveen-s-157b365a/",
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Version Control Github tech docs. Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Linux System tech docs. Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,0 +1,8 @@
+{
+  "label": "Linux system documentations",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Contains complete Linux system documentations, references & related links."
+  }
+}
