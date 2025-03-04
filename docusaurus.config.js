@@ -87,7 +87,7 @@ const config = {
           //   label: "About VS System",
           // },
           {
-            to: "/docs/category/js-documentations",
+            to: "/docs/",
             label: "Linux System",
             position: "left",
           },
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: "Linux System",
-                to: "/docs/category/js-documentations",
+                to: "/docs/",
               },
             ],
           },

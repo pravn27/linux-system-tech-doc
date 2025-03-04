@@ -17,6 +17,9 @@ slug: /
 - https://medium.com/@onix_react/useful-linux-commands-every-developer-should-know-72a7ee26ef36
 - https://www.hostinger.com/tutorials/linux-commands
 - https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh
+- Frontend Master linux commands course
+  - https://btholt.github.io/complete-intro-to-linux-and-the-cli/
+  - https://github.com/btholt/complete-intro-to-linux-and-the-cli
 
 ## Bash scripting
 
